@@ -376,14 +376,28 @@ div.footer h6 {
         flex-direction: row;
 
     }
-}
-@media screen  and (max-width:749px) and (min-width:100px){
+}@media screen  and (max-width:749px) and (min-width:100px){
     #hamburger{
       display: block;
-      padding-right: 40px;
+      padding-right: -40px;
     }
     div#nav-link-wrapper ul{
         display: none;
+        position: fixed;
+        background-color: #22293f;
+        height: 30vh;
+        margin-top:15rem ;
+        margin-left: -10rem;
+        border-radius: 2rem;
+        padding-left: 4rem;
+        width: 100vw;
+        flex-direction: column;
+        
+        /* z-index: -1; */
+    }
+    .animate{
+        justify-content: space-evenly;
+        transition: all 3s ease-out;
     }
 }
 /* hamburger switcher ends */
