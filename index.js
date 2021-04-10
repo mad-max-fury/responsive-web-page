@@ -10,9 +10,7 @@ hamburger.addEventListener('click',HamburgerControl = ()=>{
     navLinks.style.display = 'flex'
     cross.style.display='block'
     hamburger.style.display='none'
-    cross.style.transition='all '
-    cross.style.duration='0.4s '
-    cross.style.easing='ease-in-out'
+     navLinks.classList += 'animate'
 
 
 })
